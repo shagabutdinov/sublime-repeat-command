@@ -1,0 +1,94 @@
+[
+  {
+    "keys": ["alt+1"],
+    "command": "repeat_next",
+    "args": {
+      "count": 1
+    }
+  },
+
+  {
+    "keys": ["alt+2"],
+    "command": "repeat_next",
+    "args": {
+      "count": 2
+    }
+  },
+
+  {
+    "keys": ["alt+3"],
+    "command": "repeat_next",
+    "args": {
+      "count": 3
+    }
+  },
+
+  {
+    "keys": ["alt+4"],
+    "command": "repeat_next",
+    "args": {
+      "count": 4
+    }
+  },
+
+  {
+    "keys": ["alt+5"],
+    "command": "repeat_next",
+    "args": {
+      "count": 5
+    }
+  },
+
+  {
+    "keys": ["alt+6"],
+    "command": "repeat_next",
+    "args": {
+      "count": 6
+    }
+  },
+
+  {
+    "keys": ["alt+7"],
+    "command": "repeat_next",
+    "args": {
+      "count": 7
+    }
+  },
+
+  {
+    "keys": ["alt+8"],
+    "command": "repeat_next",
+    "args": {
+      "count": 8
+    }
+  },
+
+  {
+    "keys": ["alt+9"],
+    "command": "repeat_next",
+    "args": {
+      "count": 9
+    }
+  },
+
+  {
+    "keys": ["alt+0"],
+    "command": "repeat_next",
+    "args": {
+      "count": 0
+    }
+  },
+
+  {
+    "keys": ["escape"],
+    "command": "cancel_repeat",
+    "context": [
+      {"key": "will_repeat_next_command", "operator": "equal", "operand": true},
+    ]
+  },
+
+  {
+    "keys": ["alt+x"],
+    "command": "repeat_last"
+  },
+]
