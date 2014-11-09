@@ -5,7 +5,7 @@ Repeats last or next command specified count times.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-repeat-command/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/repeat_command.gif "Demo")
 
 
 ### Installation
@@ -59,3 +59,8 @@ Example:
 | Repeat next, &lt;0&gt; | alt+0              |
 | Cancel repeat          | escape             |
 | Repeat last            | alt+x              |
+
+
+### Dependencies
+
+None

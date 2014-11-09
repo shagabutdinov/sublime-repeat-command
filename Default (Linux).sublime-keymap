@@ -4,7 +4,10 @@
     "command": "repeat_next",
     "args": {
       "count": 1
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -12,7 +15,10 @@
     "command": "repeat_next",
     "args": {
       "count": 2
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -20,7 +26,10 @@
     "command": "repeat_next",
     "args": {
       "count": 3
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -28,7 +37,10 @@
     "command": "repeat_next",
     "args": {
       "count": 4
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -36,7 +48,10 @@
     "command": "repeat_next",
     "args": {
       "count": 5
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -44,7 +59,10 @@
     "command": "repeat_next",
     "args": {
       "count": 6
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -52,7 +70,10 @@
     "command": "repeat_next",
     "args": {
       "count": 7
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -60,7 +81,10 @@
     "command": "repeat_next",
     "args": {
       "count": 8
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -68,7 +92,10 @@
     "command": "repeat_next",
     "args": {
       "count": 9
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
@@ -76,19 +103,26 @@
     "command": "repeat_next",
     "args": {
       "count": 0
-    }
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
     "keys": ["escape"],
     "command": "cancel_repeat",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "will_repeat_next_command", "operator": "equal", "operand": true},
     ]
   },
 
   {
     "keys": ["alt+x"],
-    "command": "repeat_last"
+    "command": "repeat_last",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 ]
